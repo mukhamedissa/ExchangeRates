@@ -53,9 +53,6 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         initUI();
-
-        startUpdateService();
-
     }
 
     @Override
@@ -80,6 +77,7 @@ public class MainActivity extends AppCompatActivity
         if (data.isSuccess() && data.result != null) {
             ORMFactory.getArticleORM().insert(this, data.result);
             mAdapter.setData(data.result);
+            startUpdateService();
         }
     }
 

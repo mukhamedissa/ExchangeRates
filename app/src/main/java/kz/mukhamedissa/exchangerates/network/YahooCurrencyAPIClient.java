@@ -40,6 +40,10 @@ public class YahooCurrencyAPIClient {
         Gson gson = new Gson();
         JSONResponse response = gson.fromJson(jsonResponse, JSONResponse.class);
 
+        if (response == null) {
+            return null;
+        }
+
         return response.getQuery().getResult().getRate();
     }
 }

@@ -66,6 +66,7 @@ public class UpdateExchangeRatesService extends Service {
             super.onPostExecute(response);
 
             if (response.isSuccess() && response.result != null) {
+                ORMFactory.getArticleORM().delete(getBaseContext());
                 ORMFactory.getArticleORM().insert(getBaseContext(), response.result);
             }
         }
