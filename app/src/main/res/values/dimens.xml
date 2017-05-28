@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="table_row_default_horizontal_padding">20dp</dimen>
+    <dimen name="table_row_default_padding_side">16dp</dimen>
+    <dimen name="text_margin_side">22dp</dimen>
+    <dimen name="line_separator_height">0.5dp</dimen>
+</resources>

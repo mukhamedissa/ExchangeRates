@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">ExchangeRates</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="rate_string">Rate: %1$s</string>
+    <string name="ask_string">Ask: %1$s</string>
+    <string name="bid_string">Bid: %1$s</string>
+    <string name="date_string">Date: %1$s</string>
+    <string name="base_currency_string">Base currency: %1$s</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="base_currency_dialog_title">Choose base currency</string>
+    <string name="check_more_than_one_error">Please, check more than one currency</string>
+    <string name="no_internet">No internet connection. Showing last loaded rates.</string>
 </resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/activity_settings_base_currency_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:paddingBottom="@dimen/table_row_default_horizontal_padding"
+        android:paddingEnd="@dimen/table_row_default_padding_side"
+        android:paddingRight="@dimen/table_row_default_padding_side"
+        android:paddingTop="@dimen/table_row_default_horizontal_padding"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/activity_settings_base_currency_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/text_margin_side"
+            android:layout_marginStart="@dimen/text_margin_side"
+            android:text="Base currency"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_separator_height"
+        android:background="@color/divider_color" />
+
+    <LinearLayout
+        android:id="@+id/activity_settings_currencies_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:paddingBottom="@dimen/table_row_default_horizontal_padding"
+        android:paddingEnd="@dimen/table_row_default_padding_side"
+        android:paddingRight="@dimen/table_row_default_padding_side"
+        android:paddingTop="@dimen/table_row_default_horizontal_padding"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/activity_settings_currencies_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/text_margin_side"
+            android:layout_marginStart="@dimen/text_margin_side"
+            android:text="Preferred currencies"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_separator_height"
+        android:background="@color/divider_color" />
+</LinearLayout>
